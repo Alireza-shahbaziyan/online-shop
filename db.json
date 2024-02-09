@@ -1,0 +1,264 @@
+{
+  "store": {
+    "categories": {
+      "Protein": {
+        "name": {
+          "fa": "پروتئین",
+          "en": "Protein"
+        },
+        "products": [
+          {
+            "name": "گوشت گاو",
+            "quantity": "ده کیلوگرم",
+            "price": 200000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "گوشت گاو تازه و بدون استفاده از هرگونه مواد افزودنی یا نگهدارنده."
+          },
+          {
+            "name": "مرغ",
+            "quantity": "پنج کیلوگرم",
+            "price": 150000,
+            "discount": false,
+            "details": "مرغ تازه و طبیعی از مزارع محلی."
+          },
+          {
+            "name": "ماهی سالمون",
+            "quantity": "دو کیلوگرم",
+            "price": 180000,
+            "discount": true,
+            "discount_percentage": 15,
+            "details": "ماهی سالمون فرآوری نشده با مزه‌ی طبیعی و غنی از اسیدهای چرب امگا-۳."
+          },
+          {
+            "name": "کوفته گوسفندی",
+            "quantity": "یک کیلوگرم",
+            "price": 250000,
+            "discount": false,
+            "details": "کوفته گوسفندی تازه و آماده برای پخت."
+          }
+        ]
+      },
+      "Fruit": {
+        "name": {
+          "fa": "میوه",
+          "en": "Fruit"
+        },
+        "products": [
+          {
+            "name": "سیب",
+            "quantity": "یک کیلوگرم",
+            "price": 50000,
+            "discount": false,
+            "details": "سیب تازه و آبدار با طعم شیرین و خوشمزه."
+          },
+          {
+            "name": "انگور",
+            "quantity": "نیم کیلوگرم",
+            "price": 30000,
+            "discount": true,
+            "discount_percentage": 5,
+            "details": "انگور فرآوری نشده با طعم خوشمزه و غنی از ویتامین‌ها."
+          },
+          {
+            "name": "پرتقال",
+            "quantity": "یک کیلوگرم",
+            "price": 45000,
+            "discount": false,
+            "details": "پرتقال تازه و آبدار با مزه‌ی خنک و خوشمزه."
+          },
+          {
+            "name": "هلو",
+            "quantity": "نیم کیلوگرم",
+            "price": 35000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "هلو تازه و آبدار با طعم شیرین و عطرمند."
+          }
+        ]
+      },
+      "Beverage": {
+        "name": {
+          "fa": "نوشیدنی",
+          "en": "Beverage"
+        },
+        "products": [
+          {
+            "name": "آب معدنی",
+            "quantity": "دو لیتری",
+            "price": 10000,
+            "discount": false,
+            "details": "آب معدنی طبیعی و بدون چربی و ناخالصی."
+          },
+          {
+            "name": "نوشابه",
+            "quantity": "یک لیتری",
+            "price": 15000,
+            "discount": true,
+            "discount_percentage": 15,
+            "details": "نوشابه با طعم‌های مختلف و خنک کننده."
+          },
+          {
+            "name": "چای",
+            "quantity": "صد گرم",
+            "price": 8000,
+            "discount": false,
+            "details": "چای سبز تازه و بدون افزودنی‌های مضر."
+          }
+        ]
+      },
+      "Bread": {
+        "name": {
+          "fa": "نان",
+          "en": "Bread"
+        },
+        "products": [
+          {
+            "name": "نان سنگک",
+            "quantity": "دو قرص",
+            "price": 12000,
+            "discount": false,
+            "details": "نان سنگک تازه و طرفداری با مزه."
+          },
+          {
+            "name": "لواش",
+            "quantity": "یک عدد",
+            "price": 5000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "لواش با طعم خوشمزه و خوش‌پز."
+          },
+          {
+            "name": "نان تست",
+            "quantity": "یک عدد",
+            "price": 8000,
+            "discount": false,
+            "details": "نان تست تازه و با کیفیت."
+          }
+        ]
+      },
+      "Sweets": {
+        "name": {
+          "fa": "شیرینی",
+          "en": "Sweets"
+        },
+        "products": [
+          {
+            "name": "کیک شکلاتی",
+            "quantity": "یک عدد",
+            "price": 30000,
+            "discount": false,
+            "details": "کیک شکلاتی لذیذ با تزئینات زیبا."
+          },
+          {
+            "name": "شکلات",
+            "quantity": "دو بسته",
+            "price": 25000,
+            "discount": true,
+            "discount_percentage": 20,
+            "details": "شکلات با کیفیت و مذاق خوب."
+          },
+          {
+            "name": "کلوچه شکلاتی",
+            "quantity": "یک بسته",
+            "price": 10000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "کلوچه شکلاتی با طعمی خوشمزه و خوش‌پز."
+          }
+        ]
+      },
+      "Ice Cream": {
+        "name": {
+          "fa": "بستنی",
+          "en": "Ice Cream"
+        },
+        "products": [
+          {
+            "name": "بستنی وانیلی",
+            "quantity": "یک لیتری",
+            "price": 35000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "بستنی وانیلی خوشمزه و خنک کننده."
+          },
+          {
+            "name": "بستنی شکلاتی",
+            "quantity": "یک لیتری",
+            "price": 38000,
+            "discount": false,
+            "details": "بستنی شکلاتی با طعمی خوشمزه و غنی."
+          },
+          {
+            "name": "بستنی میوه‌ای",
+            "quantity": "یک لیتری",
+            "price": 40000,
+            "discount": true,
+            "discount_percentage": 15,
+            "details": "بستنی میوه‌ای با طعمی تازه و خوشمزه."
+          }
+        ]
+      },
+      "Stationery": {
+        "name": {
+          "fa": "لوازم التحریر",
+          "en": "Stationery"
+        },
+        "products": [
+          {
+            "name": "مداد",
+            "quantity": "یک عدد",
+            "price": 2000,
+            "discount": false,
+            "details": "مداد با کیفیت و مناسب برای نوشتن."
+          },
+          {
+            "name": "دفتر مشق",
+            "quantity": "یک عدد",
+            "price": 5000,
+            "discount": false,
+            "details": "دفتر مشق با کیفیت بالا و جلد مقاوم."
+          },
+          {
+            "name": "قلم",
+            "quantity": "یک عدد",
+            "price": 3000,
+            "discount": true,
+            "discount_percentage": 5,
+            "details": "قلم با کیفیت و نوشتن راحت."
+          }
+        ]
+      },
+      "Plants": {
+        "name": {
+          "fa": "گیاهان",
+          "en": "Plants"
+        },
+        "products": [
+          {
+            "name": "گیاه سنبله",
+            "quantity": "یک عدد",
+            "price": 25000,
+            "discount": false,
+            "details": "گیاه سنبله با ظاهر زیبا و مراقبت آسان."
+          },
+          {
+            "name": "گیاه سرو",
+            "quantity": "یک عدد",
+            "price": 30000,
+            "discount": true,
+            "discount_percentage": 10,
+            "details": "گیاه سرو با طول بلند و مناسب برای تزیین داخلی."
+          },
+          {
+            "name": "گل رز",
+            "quantity": "یک عدد",
+            "price": 35000,
+            "discount": false,
+            "details": "گل رز با رنگ‌ها و بوی طبیعی و دلنشین."
+          }
+        ]
+      }
+    }
+  }
+}
