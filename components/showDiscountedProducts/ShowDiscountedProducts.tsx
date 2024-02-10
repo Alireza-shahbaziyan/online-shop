@@ -6,14 +6,14 @@ import findAndSortDiscountedProducts, {
 	DiscountedProduct,
 } from "../discountedProduct";
 
-export default function ShowDiscountedProducts() {
+export default function ShowDiscountedProducts(clickFunc:any) {
+	const handelClick=(p:any,m:any)=>{
+		clickFunc(p,m);
+	}
 	// Call the function and get the sorted discounted products
 	const sortedDiscountedProducts: DiscountedProduct[] =
 		findAndSortDiscountedProducts(db);
 	// Print the sorted discounted products
-	// sortedDiscountedProducts.forEach((product) => {
-	//   console.log(`${product.category} - ${product.name}: Discount ${product.discountPercentage}%, Price ${product.price}`);
-	// });
 	const cardsList = sortedDiscountedProducts.slice(0, 2);
 	return (
 		<div className="bg-customGreen h-80 ">
@@ -31,7 +31,7 @@ export default function ShowDiscountedProducts() {
 					<div className="flex justify-content-between items-center w-full h-16 text-md">
 						<div className="flex w-full justify-between">
 							<div className="font-extrabold text-lg ">ریال{cardsList[1].price}</div>
-							<a className="cursor-pointer bg-success rounded-2xl text-white">
+							<a className="hidden cursor-pointer bg-success rounded-2xl text-white" onClick={()=>handelClick(cardsList,fristProductImage)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="30"
@@ -57,7 +57,7 @@ export default function ShowDiscountedProducts() {
 					<div className="flex justify-content-between items-center w-full h-16 text-md">
 						<div className="flex w-full justify-between">
 							<div className="font-extrabold text-lg ">ریال{cardsList[0].price}</div>
-							<a className="cursor-pointer bg-success rounded-2xl text-white">
+							<a className="hidden cursor-pointer bg-success rounded-2xl text-white" onClick={()=>handelClick(cardsList,fristProductImage)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="30"

@@ -42,7 +42,7 @@ export default async function Home() {
 				{/* categories component */}
 				<Categories />
 				{/* Show Discounted Products */}
-				<ShowDiscountedProducts/>
+				<ShowDiscountedProducts clickFunc={handleButtonClick}/>
 				{/* best selling */}
 				<BoxBody clickFunc={handleButtonClick} fristImage={Image1} secondImage={Image5} title="پر فروش ترین ها" fristProductInformation={db.store.categories.Protein.products} secondProductInformation={db.store.categories['Ice Cream'].products} />
 				<BoxBody clickFunc={handleButtonClick} fristImage={Image2} secondImage={Image6} title="محبوب ترین" fristProductInformation={db.store.categories.Plants.products} secondProductInformation={db.store.categories.Beverage.products} />

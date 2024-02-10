@@ -1,6 +1,5 @@
 import Image from "next/image";
-import ButtonCard from "../ButtonCard";
-import addProductsCart from "./action";
+
 
 export interface Product {
 	name: string;

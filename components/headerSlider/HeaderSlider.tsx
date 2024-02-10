@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
 //  import images from public/images
-import fristSlide from "../../public/images/sliderImage/sliderImage1.webp";
-import secondSlide from "../../public/images/sliderImage/sliderImage2.webp";
-import threeSlide from "../../public/images/sliderImage/sliderImage3.webp";
+import fristSlide from "../../public/images/sliderImage/sliderImage2.webp";
+import secondSlide from "../../public/images/sliderImage/sliderImage3.webp";
+import threeSlide from "../../public/images/sliderImage/sliderImage1.webp";
 
 import "./styles.css";
 
