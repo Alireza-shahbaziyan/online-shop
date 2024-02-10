@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "id": "fbf2",
+      "name": "آب معدنی",
+      "quantity": "دو لیتری",
+      "price": 10000,
+      "discount": false,
+      "details": "آب معدنی طبیعی و بدون چربی و ناخالصی.",
+      "image": "/_next/static/media/cardImage116.a3faaeff.jpg"
+    }
+  ]
+}

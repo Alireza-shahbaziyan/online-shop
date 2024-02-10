@@ -18,7 +18,8 @@ export default function Categories() {
 
 			<div className="flex justify-around p-4">
 				<div className="flex justify-center items-center flex-col w-32">
-					<Image
+					<Image 
+					className="btn btn-ghost p-0"
 						src={proteinImage}
 						alt="Picture of the author"
 						width={52}
@@ -28,6 +29,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={VegetablesImage}
 						alt="Picture of the author"
 						width={52}
@@ -37,6 +39,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={BeveragesImage}
 						alt="Picture of the author"
 						width={52}
@@ -46,6 +49,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={BreadsImage}
 						alt="Picture of the author"
 						width={52}
@@ -57,6 +61,7 @@ export default function Categories() {
 			<div className="flex justify-around p-4">
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={sweets}
 						alt="Picture of the author"
 						width={52}
@@ -66,6 +71,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={iceCreamesImage}
 						alt="Picture of the author"
 						width={52}
@@ -75,6 +81,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={stationery}
 						alt="Picture of the author"
 						width={52}
@@ -84,6 +91,7 @@ export default function Categories() {
 				</div>
 				<div className="flex justify-center items-center flex-col w-32">
 					<Image
+					className="btn btn-ghost p-0"
 						src={plants}
 						alt="Picture of the author"
 						width={52}
