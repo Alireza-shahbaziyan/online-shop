@@ -10,7 +10,7 @@
           {
             "name": "گوشت گاو",
             "quantity": "ده کیلوگرم",
-            "price": 200000,
+            "price": 200,
             "discount": true,
             "discount_percentage": 10,
             "details": "گوشت گاو تازه و بدون استفاده از هرگونه مواد افزودنی یا نگهدارنده."
@@ -18,14 +18,14 @@
           {
             "name": "مرغ",
             "quantity": "پنج کیلوگرم",
-            "price": 150000,
+            "price": 150,
             "discount": false,
             "details": "مرغ تازه و طبیعی از مزارع محلی."
           },
           {
             "name": "ماهی سالمون",
             "quantity": "دو کیلوگرم",
-            "price": 180000,
+            "price": 18000,
             "discount": true,
             "discount_percentage": 15,
             "details": "ماهی سالمون فرآوری نشده با مزه‌ی طبیعی و غنی از اسیدهای چرب امگا-۳."
@@ -48,14 +48,14 @@
           {
             "name": "سیب",
             "quantity": "یک کیلوگرم",
-            "price": 50000,
+            "price": 5000,
             "discount": false,
             "details": "سیب تازه و آبدار با طعم شیرین و خوشمزه."
           },
           {
             "name": "انگور",
             "quantity": "نیم کیلوگرم",
-            "price": 30000,
+            "price": 3000,
             "discount": true,
             "discount_percentage": 5,
             "details": "انگور فرآوری نشده با طعم خوشمزه و غنی از ویتامین‌ها."
@@ -63,14 +63,14 @@
           {
             "name": "پرتقال",
             "quantity": "یک کیلوگرم",
-            "price": 45000,
+            "price": 4500,
             "discount": false,
             "details": "پرتقال تازه و آبدار با مزه‌ی خنک و خوشمزه."
           },
           {
             "name": "هلو",
             "quantity": "نیم کیلوگرم",
-            "price": 35000,
+            "price": 3500,
             "discount": true,
             "discount_percentage": 10,
             "details": "هلو تازه و آبدار با طعم شیرین و عطرمند."
@@ -86,14 +86,14 @@
           {
             "name": "آب معدنی",
             "quantity": "دو لیتری",
-            "price": 10000,
+            "price": 100,
             "discount": false,
             "details": "آب معدنی طبیعی و بدون چربی و ناخالصی."
           },
           {
             "name": "نوشابه",
             "quantity": "یک لیتری",
-            "price": 15000,
+            "price": 1500,
             "discount": true,
             "discount_percentage": 15,
             "details": "نوشابه با طعم‌های مختلف و خنک کننده."
@@ -177,7 +177,7 @@
           {
             "name": "بستنی وانیلی",
             "quantity": "یک لیتری",
-            "price": 35000,
+            "price": 3500,
             "discount": true,
             "discount_percentage": 10,
             "details": "بستنی وانیلی خوشمزه و خنک کننده."
@@ -185,7 +185,7 @@
           {
             "name": "بستنی شکلاتی",
             "quantity": "یک لیتری",
-            "price": 38000,
+            "price": 3800,
             "discount": false,
             "details": "بستنی شکلاتی با طعمی خوشمزه و غنی."
           },

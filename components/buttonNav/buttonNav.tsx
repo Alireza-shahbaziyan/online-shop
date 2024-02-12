@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function ButtonNav() {
 	return (
-		<div className="lg:hidden">
-			<div className="btm-nav bg-customGreen fixed right-0 left-0">
+		<div className=" flex justify-center">
+			<div className="btm-nav bg-customGreen fixed md:right-48 lg:right-1/3 lg:w-4/12 md:w-7/12">
 				<Link href='/' className=" text-white">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

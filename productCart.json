@@ -1,13 +1,5 @@
 {
   "products": [
-    {
-      "id": "3393",
-      "name": "گیاه سنبله",
-      "quantity": "یک عدد",
-      "price": 25000,
-      "discount": false,
-      "details": "گیاه سنبله با ظاهر زیبا و مراقبت آسان.",
-      "image": "/_next/static/media/cardImage112.61f6063b.png"
-    }
+    
   ]
 }
